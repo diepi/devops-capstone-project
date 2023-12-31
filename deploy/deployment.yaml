@@ -18,7 +18,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: us.icr.io/sn-labs-ngocdiepdo/accounts:1
+      - image: image-registry.openshift-image-registry.svc:5000/sn-labs-ngocdiepdo/accounts:latest
         name: accounts
         resources: {}
         env:
